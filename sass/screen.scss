@@ -4,3 +4,18 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import url(http://fonts.googleapis.com/css?family=Nixie+One|La+Belle+Aurore|Podkova|Life+Savers|Clicker+Script|Sacramento|Raleway+Dots|Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800;);
+
+body {background:url(http://placekitten.com/g/1500/400) no-repeat top center; font-family:open sans; font-size:1.1em; font-weight:300;}
+
+.container {width:960px; margin:0 auto;}
+.bg_slideshow {display:none;}
+.logo {display:block; margin:300px auto 0 auto;}
+.usp {font-family:nixie one; font-size:3em; width:75%; margin:1em auto; text-align:center; color:#B6C498;}
+.col {float:left; width:30%; margin-right:3%;}
+h1 {font-family:nixie one; font-size:2em; margin-bottom:.25em;}
+.section2 {background:#D9E7BE; margin-top:2em; padding:2em 0 2em 0;}
+
+.clearfix {*zoom: 1;}
+.clearfix:before,.clearfix:after {display: table;line-height: 0;content: "";}
+.clearfix:after {clear: both;}
