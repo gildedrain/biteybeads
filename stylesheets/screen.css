@@ -104,39 +104,58 @@ body {
 }
 
 /* line 15, ../sass/screen.scss */
+a[href^="mailto:"] {
+  display: block;
+  width: 20%;
+  background: #8B9E65;
+  color: #FFF;
+  border-radius: .5em;
+  margin: 0 auto;
+  padding: 1em;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* line 16, ../sass/screen.scss */
+a[href^="mailto:"]:hover {
+  background: #9E9E65;
+  font-weight: bold;
+}
+
+/* line 17, ../sass/screen.scss */
 .col {
   float: left;
   width: 30%;
   margin-right: 3%;
 }
 
-/* line 16, ../sass/screen.scss */
+/* line 18, ../sass/screen.scss */
 h1 {
   font-family: nixie one;
   font-size: 2em;
   margin-bottom: .25em;
 }
 
-/* line 17, ../sass/screen.scss */
+/* line 19, ../sass/screen.scss */
 .section2 {
   background: #D9E7BE;
   margin-top: 2em;
   padding: 2em 0 2em 0;
 }
 
-/* line 19, ../sass/screen.scss */
+/* line 21, ../sass/screen.scss */
 .clearfix {
   *zoom: 1;
 }
 
-/* line 20, ../sass/screen.scss */
+/* line 22, ../sass/screen.scss */
 .clearfix:before, .clearfix:after {
   display: table;
   line-height: 0;
   content: "";
 }
 
-/* line 21, ../sass/screen.scss */
+/* line 23, ../sass/screen.scss */
 .clearfix:after {
   clear: both;
 }

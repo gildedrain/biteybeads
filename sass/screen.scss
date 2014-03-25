@@ -12,6 +12,8 @@ body {background:url(http://placekitten.com/g/1500/400) no-repeat top center; fo
 .bg_slideshow {display:none;}
 .logo {display:block; margin:300px auto 0 auto;}
 .usp {font-family:nixie one; font-size:3em; width:75%; margin:1em auto; text-align:center; color:#B6C498;}
+a[href^="mailto:"]{display:block; width:20%; background:#8B9E65; color:#FFF; border-radius:.5em; margin:0 auto; padding:1em; text-decoration:none; text-align:center;}
+a[href^="mailto:"]:hover{background:#9E9E65; font-weight:bold;}
 .col {float:left; width:30%; margin-right:3%;}
 h1 {font-family:nixie one; font-size:2em; margin-bottom:.25em;}
 .section2 {background:#D9E7BE; margin-top:2em; padding:2em 0 2em 0;}
