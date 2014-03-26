@@ -5,7 +5,7 @@
 @import url(http://fonts.googleapis.com/css?family=Nixie+One|La+Belle+Aurore|Podkova|Life+Savers|Clicker+Script|Sacramento|Raleway+Dots|Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800;);
 /* line 8, ../sass/screen.scss */
 body {
-  background: url(http://placekitten.com/g/1500/400) no-repeat top center;
+  background: url(../images/b.png) no-repeat top center;
   font-family: open sans;
   font-size: 1.1em;
   font-weight: 300;
@@ -15,6 +15,7 @@ body {
 .container {
   width: 90%;
   margin: 0 auto;
+  background: #FFF;
 }
 
 /* line 11, ../sass/screen.scss */
