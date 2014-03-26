@@ -1,0 +1,3492 @@
+/* RESET.CSS */
+/* line 2, ../sass/gui.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border: none;
+  outline: 0;
+  outline: none;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* remember to define focus styles! :focus{outline:0;}
+*/
+/* line 5, ../sass/gui.scss */
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+/* line 6, ../sass/gui.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 7, ../sass/gui.scss */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+/* line 8, ../sass/gui.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+}
+
+/* line 9, ../sass/gui.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+}
+
+/* line 10, ../sass/gui.scss */
+blockquote, q {
+  quotes: "" "";
+}
+
+/* TYPOGRAPHY.CSS - The font-size percentage is of 16px. (0.75 * 16px = 12px) */
+/* line 12, ../sass/gui.scss */
+html {
+  font-size: 100.01%;
+}
+
+/* line 13, ../sass/gui.scss */
+body {
+  font-size: 100%;
+  color: #222;
+  background: #fff;
+  font-family: "Gill Sans",Verdana,Arial,Helvetica,sans-serif;
+  font-weight: 200;
+}
+
+/* Headings -------------------------------------------------------------- */
+/* line 15, ../sass/gui.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans","Gill Sans",Verdana,Arial,Helvetica,sans-serif;
+  font-weight: 200;
+}
+
+/* line 16, ../sass/gui.scss */
+h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin-bottom: 0.5em;
+}
+
+/* 16pt*3.0em = 49 px */
+/* line 18, ../sass/gui.scss */
+h2 {
+  font-size: 2em;
+  margin-bottom: 0.75em;
+}
+
+/* 16pt*2.0em = 32 px */
+/* line 20, ../sass/gui.scss */
+h3 {
+  font-size: 1.5em;
+  line-height: 1;
+  margin-bottom: 1em;
+}
+
+/* 16pt*1.5em = 24 px */
+/* line 22, ../sass/gui.scss */
+h4 {
+  font-size: 1.2em;
+  line-height: 1.25;
+  margin-bottom: 1.25em;
+  font-weight: 400;
+}
+
+/* 16pt*1.2em = 19.2px */
+/* line 24, ../sass/gui.scss */
+h5 {
+  font-size: 1em;
+  font-weight: 400;
+  margin-bottom: 1.5em;
+}
+
+/* 16pt*1.0em = 16 px */
+/* line 26, ../sass/gui.scss */
+h6 {
+  font-size: .8em;
+  font-weight: bold;
+}
+
+/* 16pt*0.8em = 12.8px */
+/* line 29, ../sass/gui.scss */
+h1 img, h2 img, h3 img,
+h4 img, h5 img, h6 img {
+  margin: 0;
+}
+
+/* Text elements -------------------------------------------------------------- */
+/* line 31, ../sass/gui.scss */
+p {
+  margin: 0 0 1.5em 0;
+  line-height: 1.5;
+}
+
+/* line 32, ../sass/gui.scss */
+a:focus, a:hover {
+  text-decoration: underline;
+}
+
+/* line 33, ../sass/gui.scss */
+a {
+  color: #2A5DB0;
+  text-decoration: none;
+}
+
+/* line 34, ../sass/gui.scss */
+blockquote {
+  margin: 1.5em;
+  color: #666;
+  font-style: italic;
+}
+
+/* line 35, ../sass/gui.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 36, ../sass/gui.scss */
+em, dfn {
+  font-style: italic;
+}
+
+/* line 37, ../sass/gui.scss */
+dfn {
+  font-weight: bold;
+}
+
+/* line 38, ../sass/gui.scss */
+sup, sub {
+  line-height: 0;
+  font-size: x-small;
+}
+
+/* line 39, ../sass/gui.scss */
+sup {
+  vertical-align: top;
+  display: inline-block;
+  margin-top: .5em;
+}
+
+/* line 40, ../sass/gui.scss */
+sub {
+  vertical-align: bottom;
+}
+
+/* line 41, ../sass/gui.scss */
+abbr, acronym {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+}
+
+/* line 42, ../sass/gui.scss */
+address {
+  font-style: italic;
+  display: inline;
+}
+
+/* line 43, ../sass/gui.scss */
+del {
+  color: #666;
+}
+
+/*pre{margin:0;white-space:pre;}
+pre,code{background:#000;color:#86b5e3;padding:1em;border:1px solid #ccc;display:block;font-size:.8em;}
+pre,code,tt{font-family:'andale mono','lucida console',Courier,monospace;}
+*/
+/* Lists -------------------------------------------------------------- */
+/* line 49, ../sass/gui.scss */
+li ul, li ol {
+  margin: 0;
+}
+
+/* line 50, ../sass/gui.scss */
+.main li {
+  margin-bottom: .5em;
+  line-height: 1.3;
+}
+
+/* line 51, ../sass/gui.scss */
+ul, ol {
+  margin: 0 1.5em 1.5em 0;
+  padding-left: 3.333em;
+}
+
+/* line 52, ../sass/gui.scss */
+ul {
+  list-style-type: disc;
+}
+
+/* line 53, ../sass/gui.scss */
+ol {
+  list-style-type: decimal;
+}
+
+/* line 54, ../sass/gui.scss */
+dl {
+  margin: 0 0 1.5em 0;
+}
+
+/* line 55, ../sass/gui.scss */
+dl dt {
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 1.3em;
+}
+
+/* line 56, ../sass/gui.scss */
+dd {
+  margin-top: .25em;
+  line-height: 1.3;
+}
+
+/* Tables -------------------------------------------------------------- */
+/* line 58, ../sass/gui.scss */
+table {
+  margin: 0 0 .5em 0;
+  background: #FFF;
+  color: #333;
+  border: 1px solid #666;
+  border-collapse: collapse;
+}
+
+/* line 59, ../sass/gui.scss */
+th {
+  background: #003151;
+  background: rgba(0, 0, 0, 0.85);
+  color: #FFF;
+  text-align: left;
+}
+
+/* line 60, ../sass/gui.scss */
+th, td, caption {
+  padding: 4px 5px 4px 5px;
+  border: 1px solid #666;
+  border-width: 0 1px 1px 0;
+}
+
+/* line 61, ../sass/gui.scss */
+tfoot {
+  font-style: italic;
+}
+
+/* line 62, ../sass/gui.scss */
+caption {
+  background: #ffffe1;
+  color: #333;
+  border: 1px solid #666;
+  border-width: 1px 1px 0 1px;
+}
+
+/* Misc classes -------------------------------------------------------------- */
+/* line 64, ../sass/gui.scss */
+small {
+  font-size: .8em;
+  margin-bottom: 1.875em;
+  line-height: 1.875;
+}
+
+/* line 65, ../sass/gui.scss */
+big {
+  font-size: 1.2em;
+  line-height: 2.5;
+  margin-bottom: 1.25em;
+}
+
+/* line 66, ../sass/gui.scss */
+hr {
+  float: left;
+  display: block;
+  clear: both;
+  border-top: 1px solid #000;
+  margin: .5em 0 .5em 0;
+  width: 100%;
+  padding: 0;
+}
+
+/* FORMS.CSS*/
+/* fieldsets & legends */
+/* line 69, ../sass/gui.scss */
+form {
+  min-width: 310px;
+}
+
+/* a form will not fit in a single column width of 150px */
+/* line 71, ../sass/gui.scss */
+fieldset {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  background: transparent;
+  padding: 40px 10px 10px 10px;
+  margin: 0 0 10px 0;
+  border-radius: 10px 0 0 0;
+  -webkit-border-radius: 10px 0 0 0;
+  -moz-border-radius: 10px 0 0 0;
+}
+
+/* line 72, ../sass/gui.scss */
+legend {
+  font-size: 1.2em;
+  border: 1px solid #333;
+  background: rgba(0, 0, 0, 0.8);
+  color: #FFF;
+  float: left;
+  margin: -40px 0 0 -10px;
+  clear: both;
+  padding: 3px 20px 3px 10px;
+  border-radius: 10px 0 10px 0;
+  -webkit-border-radius: 10px 0 10px 0;
+  -moz-border-radius: 10px 0 10px 0;
+}
+
+/* line 73, ../sass/gui.scss */
+fieldset fieldset {
+  background: rgba(0, 0, 0, 0.05);
+  padding: 40px 10px 10px 10px;
+  border-radius: 0 0 0 0;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+}
+
+/* this removes the fancy treatment of subsequent fieldsets */
+/* line 75, ../sass/gui.scss */
+fieldset fieldset legend {
+  background: transparent;
+  color: inherit;
+  border: 0;
+  border-radius: 0 0 0 0;
+}
+
+/* only the first legend (the title of the form) gets fancy treatment */
+/* labels */
+/* line 78, ../sass/gui.scss */
+label {
+  margin: 10px 0 3px 0;
+  display: block;
+  line-height: 1.2;
+}
+
+/* line 79, ../sass/gui.scss */
+.labels-left label {
+  text-align: left;
+  display: inline-block;
+  width: 110px;
+  margin: 0 10px 0 0;
+}
+
+/* line 80, ../sass/gui.scss */
+.labels-right label {
+  text-align: right;
+  display: inline-block;
+  width: 110px;
+  margin: 0 10px 0 0;
+}
+
+/* inputs,selects,textareas,radios,checkboxes,submits */
+/* line 82, ../sass/gui.scss */
+input[type="text"], input[type="email"], input[type="search"], input[type="tel"], input[type="url"], input[type="password"], select, textarea {
+  display: inline-block;
+  width: auto;
+  border: 1px solid #aaa;
+  margin: 0 0 .5em 0;
+  padding: 5px;
+  font-size: .75em;
+}
+
+/* line 83, ../sass/gui.scss */
+input[type=radio], input[type=checkbox] {
+  display: inline-block;
+  width: auto;
+  margin: 0 5px 0 0;
+}
+
+/* line 84, ../sass/gui.scss */
+input[type="radio"] + label, input[type="checkbox"] + label {
+  display: inline-block;
+  width: auto;
+  margin: 0 25px 0 0;
+}
+
+/* line 85, ../sass/gui.scss */
+select {
+  width: auto;
+  padding: 0;
+}
+
+/* easier to let them be width:auto to allow for situations like DOB (month) (day) (year) */
+/* line 87, ../sass/gui.scss */
+textarea {
+  font-family: inherit;
+  font-size: 88%;
+  letter-spacing: inherit;
+}
+
+/* line 88, ../sass/gui.scss */
+input[type=submit] {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+}
+
+/* must appear last due to inheritance */
+/* messages */
+/* line 91, ../sass/gui.scss */
+.error, .notice, .success {
+  padding: .5em;
+  border: 3px solid #ddd;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  box-shadow: 0 1px 2px #aaa;
+  -webkit-box-shadow: 0 1px 2px #aaa;
+  -moz-box-shadow: 0 1px 2px #aaa;
+}
+
+/* line 92, ../sass/gui.scss */
+.error {
+  background: #FBE3E4;
+  color: #8a1f11;
+  border-color: #FBC2C4;
+}
+
+/* line 93, ../sass/gui.scss */
+.notice {
+  background: #FFF6BF;
+  color: #514721;
+  border-color: #FFD324;
+}
+
+/* line 94, ../sass/gui.scss */
+.success {
+  background: #E6EFC2;
+  color: #264409;
+  border-color: #C6D880;
+}
+
+/* line 95, ../sass/gui.scss */
+.error a {
+  color: #8a1f11;
+}
+
+/* line 96, ../sass/gui.scss */
+.notice a {
+  color: #514721;
+}
+
+/* line 97, ../sass/gui.scss */
+.success a {
+  color: #264409;
+}
+
+/* line 98, ../sass/gui.scss */
+fieldset small {
+  font-style: italic;
+  color: #aaa;
+  display: inline-block;
+  margin: 0 10px 5px 10px;
+  vertical-align: top;
+}
+
+/* line 99, ../sass/gui.scss */
+.required {
+  color: red;
+}
+
+/* HACKS ---------------------------------------- */
+/* Firefox 3.5 needs some help,JQuery detects the userAgent and adds body.ff3_5 so I can target that browser. */
+/* line 102, ../sass/gui.scss */
+.ff3_5 fieldset {
+  padding-top: 1em;
+}
+
+/* line 103, ../sass/gui.scss */
+.ff3_5 legend {
+  margin: 26px 0 0 -10px;
+  border: 0;
+}
+
+/* Temporary Band-aid until we can clean up the existing forms by removing the OLs and LIs */
+/* line 105, ../sass/gui.scss */
+fieldset ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*HACKS!*/
+/* line 107, ../sass/gui.scss */
+.ie legend {
+  background: #000;
+  color: #FFF;
+}
+
+/* line 108, ../sass/gui.scss */
+.ie fieldset fieldset {
+  background: #FFF;
+}
+
+/* line 109, ../sass/gui.scss */
+.ie fieldset fieldset legend {
+  background: transparent;
+  color: #333;
+}
+
+/* line 110, ../sass/gui.scss */
+.ie textarea {
+  font-family: "gill sans",verdana,sans-serif;
+  font-size: 75%;
+}
+
+/* 960_6col_grid.css */
+/* FOR DEBUGGING ONLY */
+/* line 113, ../sass/gui.scss */
+body {
+  xbackground: url(../images/grid/grid.jpg) repeat-y top center !important;
+}
+
+/* line 114, ../sass/gui.scss */
+section, #section, .section, .main {
+  xbackground: transparent !important;
+}
+
+/* GRID DIMENSIONS - column widths = 150px with 10px gutters */
+/* line 116, ../sass/gui.scss */
+.col1, .col1dot5, .col2, .col3, .col4, .col5, .col6 {
+  float: left;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+/* line 117, ../sass/gui.scss */
+.col1 {
+  width: 150px;
+}
+
+/* line 118, ../sass/gui.scss */
+.col1dot5 {
+  width: 230px;
+}
+
+/* line 119, ../sass/gui.scss */
+.col2 {
+  width: 310px;
+}
+
+/* line 120, ../sass/gui.scss */
+.col3 {
+  width: 470px;
+}
+
+/* line 121, ../sass/gui.scss */
+.col4 {
+  width: 630px;
+}
+
+/* line 122, ../sass/gui.scss */
+.col5 {
+  width: 790px;
+}
+
+/* line 123, ../sass/gui.scss */
+.col6 {
+  width: 950px;
+}
+
+/* not necessary if you just want the content to free-flow */
+/* line 125, ../sass/gui.scss */
+.precoldot5 {
+  margin-left: 85px !important;
+}
+
+/* line 126, ../sass/gui.scss */
+.precol1 {
+  margin-left: 165px !important;
+}
+
+/* line 127, ../sass/gui.scss */
+.precol1dot5 {
+  margin-left: 245px !important;
+}
+
+/* line 128, ../sass/gui.scss */
+.precol2 {
+  margin-left: 325px !important;
+}
+
+/* line 129, ../sass/gui.scss */
+.precol3 {
+  margin-left: 485px !important;
+}
+
+/* line 130, ../sass/gui.scss */
+.precol4 {
+  margin-left: 645px !important;
+}
+
+/* line 131, ../sass/gui.scss */
+.precol4dot5 {
+  margin-left: 725px !important;
+}
+
+/* line 132, ../sass/gui.scss */
+.precol5 {
+  margin-left: 805px !important;
+}
+
+/* PAGE LAYOUT
+- automatically reacts to ASIDE float position,no changes needed here
+- .hasmenu is added dynamically if the "menu" URL parameter exists
+- section area width = (col4) + 10 */
+/* line 137, ../sass/gui.scss */
+#section.hasmenu, section.hasmenu, .section.hasmenu {
+  float: right;
+  width: 640px;
+}
+
+/* line 138, ../sass/gui.scss */
+#aside, aside, .aside {
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* line 139, ../sass/gui.scss */
+#aside > *, aside > *, .aside > * {
+  max-width: 310px;
+}
+
+/* CONTAINER CLASS
+- centered,with overall site width = (usable space) + (padding) */
+/* line 142, ../sass/gui.scss */
+.container {
+  width: 960px;
+  padding: 0 5px 0 5px;
+  margin: 0 auto;
+}
+
+/* CLEARING HELPERS
+Depending on the situation,you may need to apply some combination of:- .first to the first block and/or .last to the last block.
+- .first.nest to the first NESTED-block and .last.nest to the last NESTED-block.
+- .dots is a solid break to make all the dumb browsers do wrap where they're supposed to. */
+/* line 147, ../sass/gui.scss */
+.first {
+  clear: left;
+}
+
+/* line 148, ../sass/gui.scss */
+.last {
+  clear: right;
+}
+
+/* BUG! not sure we even need .last anymore */
+/* line 150, ../sass/gui.scss */
+.nest.first {
+  margin-left: 0;
+  clear: left;
+}
+
+/* line 151, ../sass/gui.scss */
+.nest.last {
+  margin-right: 0;
+  clear: right;
+}
+
+/* line 152, ../sass/gui.scss */
+.dots {
+  clear: both;
+  margin: 0;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+}
+
+/* MENU
+- size (width+padding = .col2 = 310) must define MENU size separate from .col2 due to unique visual styling */
+/* line 155, ../sass/gui.scss */
+.menu {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 156, ../sass/gui.scss */
+.menu ul {
+  margin: 0 0 10px 0;
+  list-style: none;
+  padding: 0;
+}
+
+/* line 157, ../sass/gui.scss */
+.menu ul ul {
+  margin-bottom: 0;
+}
+
+/* line 158, ../sass/gui.scss */
+.menu li a {
+  display: block;
+  width: 290px;
+  padding: .25em 10px .25em 10px;
+  margin: 0;
+  text-decoration: none;
+}
+
+/* line 159, ../sass/gui.scss */
+.menu ul ul a {
+  width: 280px;
+  padding-left: 20px;
+}
+
+/* line 160, ../sass/gui.scss */
+.menu ul ul a:before {
+  content: "- ";
+  color: #aaa;
+}
+
+/* line 161, ../sass/gui.scss */
+.menu li {
+  margin: 0;
+  padding: 0;
+}
+
+/*HACK! adding a top border to menu li's seems to force IE7 into the box model */
+/* line 163, ../sass/gui.scss */
+.ie7 .menu li {
+  border-top: 1px solid #cbe9ff;
+}
+
+/* default color scheme */
+/* line 165, ../sass/gui.scss */
+.menu {
+  color: #222;
+  background-color: #cbe9ff;
+}
+
+/* line 166, ../sass/gui.scss */
+.menu a {
+  color: #222;
+  background-color: #cbe9ff;
+}
+
+/* line 167, ../sass/gui.scss */
+.menu a:hover, .menu .current {
+  color: #FFF;
+  background-color: #1799fe;
+}
+
+/* line 168, ../sass/gui.scss */
+.menu ul ul a {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* HACK! IE7 and IE8 mess up the menu styles,mostly b/c they don't understand rgba */
+/* line 170, ../sass/gui.scss */
+.ie .menu ul ul a {
+  background-color: #ccc;
+}
+
+/* line 171, ../sass/gui.scss */
+.menu ul ul a:hover, .menu ul ul .current {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #FFF;
+}
+
+/* LINKS.CSS */
+/* line 173, ../sass/gui.scss */
+.anchor {
+  position: absolute;
+  margin-top: -50px;
+  margin-left: -9999em;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+/* line 174, ../sass/gui.scss */
+a.noicon {
+  background: transparent none !important;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 175, ../sass/gui.scss */
+.external_link, a[href^="mailto:"], .file_pdf, .file_doc, .file_txt, .file_event, .file_vcard, .file_xls, .file_rss, .file_aim, .file_image, .file_video, .file_audio, .file_voice, .file_rss, .file_im {
+  background-image: url(../images/16px_icons.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+/* IE browser bug required this addition */
+/* line 177, ../sass/gui.scss */
+.external_link {
+  background-image: url(../images/16px_icons.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: 100% -50px !important;
+  padding: 2px 18px 2px 0 !important;
+  margin: 0 3px 0 0 !important;
+}
+
+/* line 178, ../sass/gui.scss */
+a[href^="mailto:"] {
+  background-position: 100% -450px;
+  padding: 2px 18px 2px 0 !important;
+  margin: 0 3px 0 0 !important;
+}
+
+/* line 179, ../sass/gui.scss */
+.file_pdf {
+  background-position: 100% -950px;
+  padding: 2px 18px 2px 0;
+  margin: 0 3px 0 0 !important;
+}
+
+/* line 180, ../sass/gui.scss */
+.file_doc {
+  background-position: 100% -400px;
+  padding: 2px 18px 2px 0 !important;
+  margin: 0 3px 0 0 !important;
+}
+
+/* line 181, ../sass/gui.scss */
+.file_txt {
+  background-position: 100% -1450px;
+  padding: 2px 18px 2px 0 !important;
+  margin: 0 3px 0 0 !important;
+}
+
+/* line 182, ../sass/gui.scss */
+.file_xls {
+  background-position: 100% -1600px;
+  padding: 2px 18px 2px 0 !important;
+  margin: 0 3px 0 0 !important;
+}
+
+/* line 183, ../sass/gui.scss */
+.file_vcard {
+  background-position: 100% -1500px;
+  padding: 2px 18px 2px 0 !important;
+  margin: 0 3px 0 0 !important;
+}
+
+/* line 184, ../sass/gui.scss */
+.file_event {
+  background-position: 100% -150px;
+  padding: 2px 18px 2px 0 !important;
+  margin: 0 3px 0 0 !important;
+}
+
+/* line 185, ../sass/gui.scss */
+.file_rss {
+  background-position: right -1250px;
+  padding: 2px 18px 2px 0 !important;
+  margin: 0 3px 0 0 !important;
+}
+
+/* line 186, ../sass/gui.scss */
+.file_im {
+  background-position: 100% -650px;
+  padding: 2px 18px 2px 0 !important;
+  margin: 0 3px 0 0 !important;
+}
+
+/* line 187, ../sass/gui.scss */
+.file_image {
+  background-position: 100% -1000px;
+  padding: 2px 18px 2px 0 !important;
+  margin: 0 3px 0 0 !important;
+}
+
+/* line 188, ../sass/gui.scss */
+.file_video {
+  background-position: 100% -800px;
+  padding: 2px 18px 2px 0 !important;
+  margin: 0 3px 0 0 !important;
+}
+
+/* line 189, ../sass/gui.scss */
+.file_audio {
+  background-position: 100% -850px;
+  padding: 2px 18px 2px 0 !important;
+  margin: 0 3px 0 0 !important;
+}
+
+/* line 190, ../sass/gui.scss */
+.file_voice {
+  background-position: 100% -1050px;
+  padding: 2px 18px 2px 0 !important;
+  margin: 0 3px 0 0 !important;
+}
+
+/* TOOLS.CSS ---------------------------------------------------------------*/
+/* ALIGNMENTS & POSITIONS */
+/* line 193, ../sass/gui.scss */
+.left {
+  float: left;
+  margin: 10px 10px 5px 0;
+}
+
+/* line 194, ../sass/gui.scss */
+.right {
+  float: right;
+  margin: 10px 0 5px 10px;
+}
+
+/* line 195, ../sass/gui.scss */
+.textleft {
+  text-align: left;
+}
+
+/* line 196, ../sass/gui.scss */
+.textright {
+  text-align: right;
+}
+
+/* line 197, ../sass/gui.scss */
+.textcenter {
+  text-align: center;
+}
+
+/* line 198, ../sass/gui.scss */
+.top {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* line 199, ../sass/gui.scss */
+.bottom {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* line 200, ../sass/gui.scss */
+.pad {
+  padding: 10px;
+}
+
+/* line 201, ../sass/gui.scss */
+.box {
+  margin: 10px 5px 10px 5px;
+}
+
+/* line 202, ../sass/gui.scss */
+.hangright {
+  margin-right: -1em;
+}
+
+/* line 203, ../sass/gui.scss */
+.hangleft {
+  margin-left: -1em;
+}
+
+/* line 204, ../sass/gui.scss */
+.valign-middle {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 205, ../sass/gui.scss */
+.valign-bottom {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+/* line 206, ../sass/gui.scss */
+.valign-top {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* DISPLAY */
+/* line 208, ../sass/gui.scss */
+.hide {
+  display: none !important;
+}
+
+/* line 209, ../sass/gui.scss */
+.inline {
+  display: inline;
+}
+
+/* line 210, ../sass/gui.scss */
+.block {
+  display: block;
+}
+
+/* line 211, ../sass/gui.scss */
+.noborder {
+  border: none !important;
+}
+
+/* line 212, ../sass/gui.scss */
+.noselect {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+/* LISTS */
+/* line 214, ../sass/gui.scss */
+ul.inline {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 215, ../sass/gui.scss */
+.inline li {
+  display: inline;
+  float: left;
+  margin: 1em 5px 1em 5px;
+}
+
+/* line 216, ../sass/gui.scss */
+.disc {
+  list-style-type: disc;
+}
+
+/* line 217, ../sass/gui.scss */
+.circle {
+  list-style-type: circle;
+}
+
+/* line 218, ../sass/gui.scss */
+.square {
+  list-style-type: square;
+}
+
+/* line 219, ../sass/gui.scss */
+.decimal {
+  list-style-type: decimal;
+}
+
+/* line 220, ../sass/gui.scss */
+.decimalzero {
+  list-style-type: decimal-leading-zero;
+}
+
+/* line 221, ../sass/gui.scss */
+.upper-roman {
+  list-style-type: upper-roman;
+}
+
+/* line 222, ../sass/gui.scss */
+.lower-roman {
+  list-style-type: lower-roman;
+}
+
+/* line 223, ../sass/gui.scss */
+.upper-alpha {
+  list-style-type: upper-alpha;
+}
+
+/* line 224, ../sass/gui.scss */
+.lower-alpha {
+  list-style-type: lower-alpha;
+}
+
+/* line 225, ../sass/gui.scss */
+.style_none {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* line 226, ../sass/gui.scss */
+.dividers dt, .dividers li {
+  border-top: 1px solid #ccc;
+  padding-top: .5em;
+}
+
+/* line 227, ../sass/gui.scss */
+.dividers p {
+  margin-bottom: .25em;
+}
+
+/* TABLES */
+/*zebra rows is on by default*/
+/* line 230, ../sass/gui.scss */
+.zebrarows li:nth-child(odd), tr:nth-child(odd) {
+  background-color: #FFF;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* HACK! IE doesn't know RGBA */
+/* line 232, ../sass/gui.scss */
+.ie7 tr:nth-child(odd) {
+  background: transparent;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000)";
+}
+
+/*turn off zebra rows*/
+/* line 234, ../sass/gui.scss */
+.nozebrarows tr:nth-child(odd) {
+  background-color: transparent !important;
+}
+
+/*zebra columns*/
+/* line 237, ../sass/gui.scss */
+.zebracolumns td:nth-of-type(odd),
+.zebracolumns tr:nth-of-type(odd) {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* line 238, ../sass/gui.scss */
+.zebracolumns th:nth-of-type(odd) {
+  background: rgba(0, 0, 0, 0.65);
+}
+
+/*zebra headers,looks terrible,not sure when I'd use it*/
+/* line 240, ../sass/gui.scss */
+.zebraheaders th:nth-of-type(odd) {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* line 241, ../sass/gui.scss */
+.zebraheaders th:nth-of-type(even) {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+/*these classes set the borders on a table*/
+/* line 243, ../sass/gui.scss */
+.rows td, .rows th {
+  border: 1px solid #666;
+  border-width: 0 0 1px 0;
+}
+
+/* line 244, ../sass/gui.scss */
+.rows {
+  border-width: 1px 1px 0 1px;
+}
+
+/* line 245, ../sass/gui.scss */
+.columns td, .columns th {
+  border: 1px solid #666;
+  border-width: 0 1px 0 0;
+}
+
+/* line 246, ../sass/gui.scss */
+.columns {
+  border-width: 1px 0 1px 1px;
+}
+
+/* line 247, ../sass/gui.scss */
+.nogrid td, .nogrid th, .nogrid {
+  border-width: 0;
+}
+
+/*tables have a grid turned on by default */
+/*sometimes you might want to swap the border color*/
+/* line 250, ../sass/gui.scss */
+.border-white td, .border-white th {
+  border-color: #fff;
+}
+
+/* ZURB SUPER AWESOME BUTTON */
+/*BUG! i need to recode this to not use the element,so the class can be independent */
+/* line 252, ../sass/gui.scss */
+.button {
+  background-color: #222;
+  background-repeat: repeat-x;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0)));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+  display: inline-block;
+  padding: 5px 10px 6px 10px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  position: relative;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+/*HACK!*/
+/* line 254, ../sass/gui.scss */
+.ie7 a.button {
+  display: block !important;
+  padding-top: .5em !important;
+  padding-bottom: .5em !important;
+  margin-bottom: .25em !important;
+  margin-top: .25em !important;
+}
+
+/* line 255, ../sass/gui.scss */
+.button {
+  line-height: 1;
+  text-align: center;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+}
+
+/* line 256, ../sass/gui.scss */
+.button:hover {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 257, ../sass/gui.scss */
+.button:active {
+  top: 1px;
+}
+
+/* line 258, ../sass/gui.scss */
+.small.button {
+  width: auto;
+  font-size: 1em;
+}
+
+/* line 259, ../sass/gui.scss */
+.medium.button {
+  width: auto;
+  font-size: 1.5em;
+}
+
+/* line 260, ../sass/gui.scss */
+.large.button {
+  font-size: 2.5em;
+  padding: 8px 14px 9px 14px !important;
+}
+
+/* line 261, ../sass/gui.scss */
+.tall.button {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+
+/* BUTTON ELEMENT Created by Kevin Hale [particletree.com] */
+/* line 263, ../sass/gui.scss */
+button {
+  display: block;
+  float: left;
+  margin: 0.7em 0.5em 0.7em 0;
+  padding: 5px 10px 5px 7px;
+  border: 1px solid #dedede;
+  border-top: 1px solid #eee;
+  border-left: 1px solid #eee;
+  background-color: #f5f5f5;
+  font-family: "Lucida Grande",Tahoma,Arial,Verdana,sans-serif;
+  font-size: 100%;
+  line-height: 130%;
+  text-decoration: none;
+  font-weight: bold;
+  color: #565656;
+  cursor: pointer;
+}
+
+/* line 264, ../sass/gui.scss */
+button {
+  width: auto;
+  overflow: visible;
+  padding: 4px 10px 3px 7px;
+  /* IE6 */
+}
+
+/* line 265, ../sass/gui.scss */
+button[type] {
+  padding: 4px 10px 4px 7px;
+  /* Firefox */
+  line-height: 17px;
+  /* Safari */
+}
+
+/* line 266, ../sass/gui.scss */
+*:first-child + html button[type] {
+  padding: 4px 10px 3px 7px;
+  /* IE7 */
+}
+
+/* line 267, ../sass/gui.scss */
+button img {
+  margin: 0 3px -3px 0 !important;
+  padding: 0;
+  border: none;
+  width: 16px;
+  height: 16px;
+  float: none;
+}
+
+/* line 268, ../sass/gui.scss */
+button:hover {
+  background-color: #dff4ff;
+  border: 1px solid #c2e1ef;
+  color: #336699;
+}
+
+/* line 269, ../sass/gui.scss */
+body .positive {
+  color: #529214;
+}
+
+/* line 270, ../sass/gui.scss */
+button.positive:hover {
+  background-color: #E6EFC2;
+  border: 1px solid #C6D880;
+  color: #529214;
+}
+
+/* line 271, ../sass/gui.scss */
+body .negative {
+  color: #d12f19;
+}
+
+/* line 272, ../sass/gui.scss */
+button.negative:hover {
+  background-color: #fbe3e4;
+  border: 1px solid #fbc2c4;
+  color: #d12f19;
+}
+
+/* TOOLTIPS */
+/* line 274, ../sass/gui.scss */
+.tooltip {
+  border-bottom: 1px dotted #000000;
+  outline: none;
+  cursor: default;
+  text-decoration: none !important;
+  position: relative;
+  z-index: 0;
+}
+
+/* line 275, ../sass/gui.scss */
+.tooltip.icon {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background: transparent url(../images/16px_icons.png) no-repeat 0 -1656px;
+  text-decoration: none;
+  border-width: 0;
+}
+
+/* line 276, ../sass/gui.scss */
+.tooltip span {
+  display: none;
+}
+
+/*hide tooltip when not hovered on*/
+/* line 278, ../sass/gui.scss */
+.tooltip:hover {
+  position: relative;
+  z-index: 25;
+}
+
+/* line 279, ../sass/gui.scss */
+.tooltip:hover span {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 1.5em;
+  z-index: 999;
+  text-decoration: none;
+  margin-left: 0;
+  width: 310px;
+  padding: .5em;
+  background: #fffaaa;
+  border: 1px solid #fda;
+  border-radius: 2px 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+  color: #222;
+}
+
+/* line 280, ../sass/gui.scss */
+.tooltip:hover img {
+  border: 0;
+  margin: -10px 0 0 -55px;
+  float: left;
+  position: absolute;
+}
+
+/* line 281, ../sass/gui.scss */
+.tooltip:hover em {
+  font-size: 1.2em;
+  font-weight: bold;
+  display: block;
+  padding: 0.2em 0 0.6em 0;
+}
+
+/* line 282, ../sass/gui.scss */
+.tooltip:hover .classic {
+  padding: 0.8em 1em;
+  color: #222;
+}
+
+/* line 283, ../sass/gui.scss */
+.tooltip:hover .custom {
+  padding: 0.5em 0.8em 0.8em 2em;
+  color: #222;
+}
+
+/* line 284, ../sass/gui.scss */
+.tooltip:hover .info {
+  border: 1px solid #fda;
+  background: #fffaaa url(../images/alerts/info.png) no-repeat 5px 5px;
+  color: #222;
+  padding: 15px 15px 15px 50px;
+}
+
+/* line 285, ../sass/gui.scss */
+.tooltip:hover .help {
+  border: 1px solid #2BB0D7;
+  background: #c2e2fc url(../images/alerts/help.png) no-repeat 5px 5px;
+  color: #222;
+  padding: 15px 15px 15px 50px;
+}
+
+/* line 286, ../sass/gui.scss */
+.tooltip:hover .warning {
+  border: 1px solid #f30;
+  color: #222;
+  background: #ff9933 url(../images/alerts/warning.png) no-repeat 5px 5px;
+  padding: 15px 15px 15px 50px;
+}
+
+/* line 287, ../sass/gui.scss */
+.tooltip:hover .critical {
+  border: 3px double #fff;
+  color: #fff;
+  background: red url(../images/alerts/critical.png) no-repeat 5px 5px;
+  padding: 15px 15px 15px 50px;
+}
+
+/* OBJECTS */
+/* ad */
+/* line 290, ../sass/gui.scss */
+.ad {
+  display: block;
+  margin: 0 0 10px 0;
+  font-size: 1.15em;
+  font-weight: normal;
+  text-decoration: none;
+  padding: 20px 10px 10px 10px;
+  line-height: 1.5;
+}
+
+/* line 291, ../sass/gui.scss */
+#aside .ad, aside .ad {
+  max-width: 310px !important;
+}
+
+/* line 292, ../sass/gui.scss */
+.ad.img {
+  padding: 0 0 20px 0;
+  font-size: 1em;
+}
+
+/* line 293, ../sass/gui.scss */
+.ad.img span {
+  display: block;
+  padding: 0 10px 0 10px;
+}
+
+/*HACK!*/
+/* line 295, ../sass/gui.scss */
+.ie7 .ad.img span {
+  display: block;
+  padding: 0 10px 10px 10px;
+}
+
+/* line 296, ../sass/gui.scss */
+.ad strong {
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+/* line 297, ../sass/gui.scss */
+.ad:hover {
+  background: #000 !important;
+  color: #FFF !important;
+  text-decoration: none;
+}
+
+/* pullquote */
+/* line 299, ../sass/gui.scss */
+.pulledquote {
+  display: block;
+  float: left;
+  width: 150px;
+  padding: .5em;
+  margin: 10px 10px 5px 0;
+  line-height: 1.6;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+/* quote */
+/* line 301, ../sass/gui.scss */
+.quote {
+  display: block;
+  min-height: 328px;
+  padding: .5em .5em 1.25em .5em;
+  margin: -2px 0 5px 0;
+  line-height: 1.3;
+  font-size: 1.15em;
+  font-style: italic;
+}
+
+/* line 302, ../sass/gui.scss */
+.quote img {
+  margin-left: -.5em;
+  margin-top: -.5em;
+  margin-bottom: .5em;
+  float: left;
+  clear: right;
+}
+
+/* line 303, ../sass/gui.scss */
+.quote cite {
+  font-size: .65em;
+  display: block;
+  clear: left;
+  line-height: 1.25;
+  padding: 1em 0 1em 0;
+}
+
+/* dropcap,smallcaps first line */
+/* line 305, ../sass/gui.scss */
+.dropcap:first-child:first-letter {
+  float: left;
+  line-height: 30px;
+  padding: 5px 5px 5px 0;
+  margin: .07em 0 -.2em -.1em;
+  color: #333;
+  font-weight: bold;
+  font-size: 2.8em;
+  font-family: garamond,"minion pro",times,"times new roman",serif;
+}
+
+/* line 306, ../sass/gui.scss */
+.smallcapline:first-child:first-line {
+  font-variant: small-caps;
+}
+
+/* casing */
+/* line 308, ../sass/gui.scss */
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* line 309, ../sass/gui.scss */
+.lowercase {
+  text-transform: lowercase;
+}
+
+/* line 310, ../sass/gui.scss */
+.small-caps {
+  font-variant: small-caps;
+}
+
+/* footnotes */
+/* line 312, ../sass/gui.scss */
+.footnotes {
+  border-top: 1px solid #aaa;
+  padding-top: 1em;
+}
+
+/* line 313, ../sass/gui.scss */
+.footnotes h4 {
+  font-size: 1.25em;
+}
+
+/* line 314, ../sass/gui.scss */
+.footnotes ol {
+  list-style: decimal;
+  padding-left: 1.5em;
+}
+
+/* line 315, ../sass/gui.scss */
+.footnotes li {
+  line-height: 1.3;
+  margin-bottom: .5em;
+}
+
+/* polaroid */
+/* line 317, ../sass/gui.scss */
+.polaroid {
+  width: 150px;
+  padding: 10px 10px 50px 10px;
+  margin: 5px;
+  border: 1px solid #BFBFBF;
+  background-color: #FFF;
+  -webkit-box-shadow: 2px 2px 3px rgba(135, 139, 144, 0.4);
+  -moz-box-shadow: 2px 2px 3px rgba(135, 139, 144, 0.4);
+  box-shadow: 2px 2px 3px rgba(135, 139, 144, 0.4);
+}
+
+/* line 318, ../sass/gui.scss */
+.polaroid.left.rotate-10 {
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+/* line 319, ../sass/gui.scss */
+.polaroid.left.rotate-25 {
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+/* line 320, ../sass/gui.scss */
+.polaroid.left.rotate-45 {
+  margin-right: 60px;
+  margin-bottom: 20px;
+}
+
+/* line 321, ../sass/gui.scss */
+.polaroid.left.rotate10 {
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+/* line 322, ../sass/gui.scss */
+.polaroid.left.rotate25 {
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+/* line 323, ../sass/gui.scss */
+.polaroid.left.rotate45 {
+  margin-right: 60px;
+  margin-bottom: 20px;
+}
+
+/* line 324, ../sass/gui.scss */
+.polaroid.right.rotate-10 {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+/* line 325, ../sass/gui.scss */
+.polaroid.right.rotate-25 {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+/* line 326, ../sass/gui.scss */
+.polaroid.right.rotate-45 {
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+
+/* line 327, ../sass/gui.scss */
+.polaroid.right.rotate10 {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+/* line 328, ../sass/gui.scss */
+.polaroid.right.rotate25 {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+/* line 329, ../sass/gui.scss */
+.polaroid.right.rotate45 {
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+
+/* figure */
+/* line 331, ../sass/gui.scss */
+.figure {
+  border-top: 1px solid #eee;
+  text-align: center;
+  box-shadow: 0 1px 2px #aaa;
+  -webkit-box-shadow: 0 1px 2px #aaa;
+  -moz-box-shadow: 0 1px 2px #aaa;
+}
+
+/* line 332, ../sass/gui.scss */
+.figure .caption {
+  display: block;
+  clear: both;
+  margin-top: -2px;
+  padding: .5em 10px .5em 10px;
+  background: #fff7e1;
+  border-top: 1px solid #aaa;
+  font-style: italic;
+  text-align: left;
+  color: #333;
+}
+
+/* line 333, ../sass/gui.scss */
+.figure .caption strong {
+  font-style: normal;
+  font-size: small;
+}
+
+/* line 334, ../sass/gui.scss */
+.figure .caption strong:after {
+  content: " - ";
+  font-weight: normal;
+}
+
+/* TRANSPARENCY */
+/* line 336, ../sass/gui.scss */
+.alpha100 {
+  opacity: 1;
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+}
+
+/* line 337, ../sass/gui.scss */
+.alpha90 {
+  opacity: .9;
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+}
+
+/* line 338, ../sass/gui.scss */
+.alpha70 {
+  opacity: .7;
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+}
+
+/* line 339, ../sass/gui.scss */
+.alpha50 {
+  opacity: .5;
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+}
+
+/* line 340, ../sass/gui.scss */
+.alpha30 {
+  opacity: .3;
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=30);
+}
+
+/* line 341, ../sass/gui.scss */
+.alpha10 {
+  opacity: .1;
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=10);
+}
+
+/* TRANSFORMATIONS */
+/* line 343, ../sass/gui.scss */
+.rotate10 {
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  rotation: 10deg;
+}
+
+/* line 344, ../sass/gui.scss */
+.rotate25 {
+  -webkit-transform: rotate(25deg);
+  -moz-transform: rotate(25deg);
+  rotation: 25deg;
+}
+
+/* line 345, ../sass/gui.scss */
+.rotate45 {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  rotation: 45deg;
+}
+
+/* line 346, ../sass/gui.scss */
+.rotate-10 {
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  rotation: -10deg;
+}
+
+/* line 347, ../sass/gui.scss */
+.rotate-25 {
+  -webkit-transform: rotate(-25deg);
+  -moz-transform: rotate(-25deg);
+  rotation: -25deg;
+}
+
+/* line 348, ../sass/gui.scss */
+.rotate-45 {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  rotation: -45deg;
+}
+
+/* BORDER RADIUS */
+/* line 350, ../sass/gui.scss */
+.radius-small {
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+}
+
+/* line 351, ../sass/gui.scss */
+.radius-medium {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+/* line 352, ../sass/gui.scss */
+.radius-large {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+/* line 353, ../sass/gui.scss */
+.radius-extralarge {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+
+/* TYPEFACES */
+/* line 355, ../sass/gui.scss */
+.font-italic, .italic {
+  font-style: italic;
+}
+
+/* line 356, ../sass/gui.scss */
+.font-sans-serif, .sans-serif {
+  font-family: "Century Gothic","Myriad Pro",myriad,"Gill Sans",verdana,sans-serif;
+}
+
+/* line 357, ../sass/gui.scss */
+.font-serif, .serif {
+  font-family: "Minion Pro","Times New Roman",times,serif;
+}
+
+/* line 358, ../sass/gui.scss */
+.font-script {
+  font-family: "Dancing Script","Brush Script",serif;
+}
+
+/* line 359, ../sass/gui.scss */
+.font-brushscript {
+  font-family: "Devonshire",serif;
+}
+
+/* line 360, ../sass/gui.scss */
+.font-brushscript2 {
+  font-family: "Sarina",serif;
+}
+
+/* line 361, ../sass/gui.scss */
+.font-handwriting {
+  font-family: "Nothing You Could Do",sans-serif;
+}
+
+/* line 362, ../sass/gui.scss */
+.font-typewriter {
+  font-family: "PT Mono","Courier New",Courier,Times,serif;
+  letter-spacing: -1px;
+}
+
+/* line 363, ../sass/gui.scss */
+.font-grunge {
+  font-family: "Rock Salt",sans-serif;
+}
+
+/* line 364, ../sass/gui.scss */
+.font-impact {
+  font-family: impact,"Open Sans";
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+
+/* line 365, ../sass/gui.scss */
+.font-condensed {
+  font-family: "Open Sans Condensed","Open Sans",sans-serif;
+}
+
+/* line 366, ../sass/gui.scss */
+.font-marker {
+  font-family: "Permanent Marker",impact,sans-serif;
+}
+
+/* CLEARFIX */
+/* add .clearfix to any container that contains floated elements if you want the container to expand to "contain" its children,same effect as placing p.dots last in the container */
+/* line 369, ../sass/gui.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 370, ../sass/gui.scss */
+.clearfix:before, .clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+/* line 371, ../sass/gui.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* MODAL WINDOW */
+/* line 373, ../sass/gui.scss */
+#modal #section {
+  /* needed to prevent scrollbars */
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 374, ../sass/gui.scss */
+#modal .clearfix {
+  /* needed to prevent scrollbars */
+  display: inline;
+}
+
+/* line 375, ../sass/gui.scss */
+#modal .clearfix:after {
+  /* needed to prevent scrollbars */
+  content: ".";
+  display: inline;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+}
+
+/* HORZY slide structure & navigation */
+/* line 377, ../sass/gui.scss */
+.slider .container {
+  padding: 0;
+}
+
+/* line 378, ../sass/gui.scss */
+.slider {
+  width: 960px;
+  margin: 0 auto;
+  background: #FFF;
+}
+
+/* line 379, ../sass/gui.scss */
+.slides_window {
+  width: 960px;
+  overflow: hidden;
+  position: relative;
+}
+
+/*masks the current .slide and hides the adjacent .slide(s),width must match the .slide it covers */
+/* line 381, ../sass/gui.scss */
+.slides {
+  width: 100000px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 382, ../sass/gui.scss */
+.slide {
+  float: left;
+  width: 960px;
+}
+
+/* width must match the .slides_window width */
+/* line 384, ../sass/gui.scss */
+.slidernav {
+  width: 100%;
+  padding: 6px 0 6px 0;
+  height: auto;
+  position: relative;
+  text-align: center;
+  /*z-index:5;*/
+}
+
+/* line 385, ../sass/gui.scss */
+.slidernav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  width: 960px;
+}
+
+/* line 386, ../sass/gui.scss */
+.slidernav li {
+  padding: 6px 0 6px 0;
+  display: inline-block;
+  line-height: auto;
+  margin-bottom: 0;
+}
+
+/* line 387, ../sass/gui.scss */
+.ie7 .slidernav li {
+  display: block;
+  float: left;
+}
+
+/*IE7 doesn't know inline-block,adding float requires .clearfix to .slidernav in the HTML*/
+/* line 389, ../sass/gui.scss */
+.slidernav a {
+  display: inline-block;
+  padding: 2px 10px 2px 10px;
+  margin: 0;
+}
+
+/* line 390, ../sass/gui.scss */
+.slidernav a:hover {
+  text-decoration: none;
+}
+
+/* line 391, ../sass/gui.scss */
+.slidernav a.current {
+  outline: 1px solid #1179fe;
+}
+
+/* VERTY navigation */
+/* line 393, ../sass/gui.scss */
+.nav .top {
+  display: none;
+}
+
+/* line 394, ../sass/gui.scss */
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 395, ../sass/gui.scss */
+.nav a {
+  color: #222;
+  display: block;
+  padding: .25em 10px .25em 10px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+/* line 397, ../sass/gui.scss */
+.nav.flat {
+  float: none;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 0 0 10px 0;
+  background: #000;
+  margin: 0;
+}
+
+/* line 398, ../sass/gui.scss */
+.nav.flat ul {
+  width: 970px;
+  padding: 10px 0 10px 0;
+  margin: 0 auto;
+}
+
+/* line 399, ../sass/gui.scss */
+.nav.flat a {
+  color: #888;
+  background: transparent;
+}
+
+/* line 400, ../sass/gui.scss */
+.nav.flat a:hover {
+  text-decoration: underline;
+}
+
+/* line 401, ../sass/gui.scss */
+.nav.flat a.current {
+  color: #fff;
+  background: #bb0000;
+}
+
+/* BG_SLIDESHOW */
+/*slides */
+/* line 404, ../sass/gui.scss */
+.bg_slideshow {
+  z-index: 0;
+  width: 100%;
+  list-style: none;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  min-height: 500px;
+}
+
+/* .bg_slideshow{margin-top:48px;}
+/* if #occheaderbg{position:absolute;}
+*/
+/* line 408, ../sass/gui.scss */
+.ie7 .bg_slideshow {
+  top: -50px;
+}
+
+/* line 409, ../sass/gui.scss */
+.bg_slideshow li {
+  z-index: 0;
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 410, ../sass/gui.scss */
+.no-js .bg_slideshow li:first-child {
+  display: block;
+  text-align: center;
+}
+
+/* REQUIRES MODERNIZR! if no JS just display the first slide forever. Modernizr will remove no-js when js enabled. */
+/* controls */
+/* line 413, ../sass/gui.scss */
+.bg_slideshow_controls {
+  position: relative;
+  float: right;
+  z-index: 6;
+  margin: 10px 0 0 0;
+  width: 135px;
+  list-style: none;
+  padding: 0;
+}
+
+/* line 414, ../sass/gui.scss */
+.bg_slideshow_controls li {
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+
+/* line 415, ../sass/gui.scss */
+.ie7 .bg_slideshow_controls li {
+  display: block;
+  float: left;
+}
+
+/* line 416, ../sass/gui.scss */
+.bg_slideshow_controls a {
+  display: block;
+  height: 25px;
+  width: 30px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url(../images/bg_slideshow_controls.png);
+  background-repeat: no-repeat;
+  background-position: 2px 0;
+}
+
+/* line 417, ../sass/gui.scss */
+#playpause.play {
+  background-image: url(../images/bg_slideshow_controls.png);
+  background-repeat: no-repeat;
+  background-position: 2px 0;
+  background-position: -55px 0;
+}
+
+/* line 418, ../sass/gui.scss */
+#playpause {
+  background-image: url(../images/loading.gif);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+/* line 419, ../sass/gui.scss */
+#next {
+  background-position: -170px 0;
+}
+
+/* captions */
+/* line 421, ../sass/gui.scss */
+.bg_slideshow a {
+  display: inline-block;
+  font-size: 1.5em;
+  padding: .5em;
+  text-shadow: 2px 2px 0px #000000;
+}
+
+/* line 422, ../sass/gui.scss */
+.bg_slideshow a:hover {
+  box-shadow: 0 0 100px 0 rgba(255, 255, 255, 0.5);
+}
+
+/* line 423, ../sass/gui.scss */
+.bg_slideshow strong {
+  font-weight: 600;
+}
+
+/* line 424, ../sass/gui.scss */
+.no-js .bg_slideshow a {
+  margin-top: -200px;
+}
+
+/* caption positions */
+/* line 426, ../sass/gui.scss */
+.bg_slideshow .caption-top {
+  margin-top: 65px;
+}
+
+/* line 427, ../sass/gui.scss */
+.bg_slideshow .caption-middle {
+  margin-top: 150px;
+}
+
+/* line 428, ../sass/gui.scss */
+.bg_slideshow .caption-bottom {
+  margin-top: 250px;
+}
+
+/* BG_BANNERS */
+/* line 430, ../sass/gui.scss */
+.bg_banners {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0 0;
+  clear: both;
+  display: block;
+}
+
+/* line 431, ../sass/gui.scss */
+.ie7 .bg_banners {
+  clear: right;
+}
+
+/* line 432, ../sass/gui.scss */
+.bg_banners li {
+  float: left;
+  position: relative;
+  display: inline-block;
+  margin: 0 5px 10px 5px;
+  background-repeat: no-repeat;
+  padding: 0;
+  background-position: center center;
+}
+
+/* line 433, ../sass/gui.scss */
+.ie7 .bg_banners li, .ie8 .bg_banners li {
+  display: block;
+  float: left;
+}
+
+/* line 434, ../sass/gui.scss */
+.bg_banners img {
+  display: none;
+}
+
+/* line 435, ../sass/gui.scss */
+.bg_banners a {
+  display: block;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  outline: 1px solid #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-family: 'open sans',verdana,sans-serif;
+  line-height: 1;
+  letter-spacing: -.05em;
+}
+
+/* line 436, ../sass/gui.scss */
+.bg_banners a:hover {
+  outline: 1px solid #333;
+  box-shadow: 0 0 100px 0 rgba(255, 255, 255, 0.5);
+}
+
+/* line 437, ../sass/gui.scss */
+.bg_banners span {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  text-shadow: 0 2px 3px #000;
+  padding: 5px;
+  width: 100%;
+  /* for IE9 */
+  background: rgba(0, 0, 0, 0.5);
+  /* for real browsers */
+  background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0%, rgba(0, 0, 0, 0.65)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* for IE7,IE8 */
+/* line 438, ../sass/gui.scss */
+.ie7 .bg_banners span, .ie8 .bg_banners span {
+  background: transparent url(../images/bg_banners_gradient.gif) repeat bottom left;
+  width: auto;
+}
+
+/* line 439, ../sass/gui.scss */
+.play {
+  background-image: url(../images/play.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* line 440, ../sass/gui.scss */
+.follow-me {
+  position: fixed;
+  display: block;
+  padding: 1em;
+  background: #000;
+  color: #fff;
+}
+
+/* line 441, ../sass/gui.scss */
+.follow-me.bottom-right {
+  bottom: 15%;
+  right: 0;
+}
+
+/* line 442, ../sass/gui.scss */
+.follow-me.bottom-left {
+  bottom: 15%;
+  left: 0;
+}
+
+/* line 443, ../sass/gui.scss */
+.follow-me.middle-right {
+  top: 45%;
+  right: 0;
+}
+
+/* line 444, ../sass/gui.scss */
+.follow-me.middle-left {
+  top: 45%;
+  left: 0;
+}
+
+/* line 445, ../sass/gui.scss */
+.follow-me.top-right {
+  top: 15%;
+  right: 0;
+}
+
+/* line 446, ../sass/gui.scss */
+.follow-me.top-left {
+  top: 15%;
+  left: 0;
+}
+
+/* line 447, ../sass/gui.scss */
+.back-to-top {
+  background: black url(../images/back-to-top.png) no-repeat 2px center;
+  border-radius: 5px 0 0 5px;
+  padding: .5em .5em .5em 1.5em;
+  text-transform: lowercase;
+  letter-spacing: .1em;
+}
+
+/* line 448, ../sass/gui.scss */
+.back-to-top:hover {
+  background-color: #666;
+}
+
+/* COLORS.CSS */
+/* line 450, ../sass/gui.scss */
+.quiet {
+  color: #666;
+}
+
+/* line 451, ../sass/gui.scss */
+.loud {
+  color: #000;
+}
+
+/* line 452, ../sass/gui.scss */
+.highlight {
+  background: #ff0;
+}
+
+/* line 453, ../sass/gui.scss */
+.added {
+  background: #060;
+  color: #fff;
+}
+
+/* line 454, ../sass/gui.scss */
+.removed {
+  background: #900;
+  color: #fff;
+}
+
+/* line 455, ../sass/gui.scss */
+body .nobg {
+  background: none !important;
+}
+
+/* line 456, ../sass/gui.scss */
+.bg-grid {
+  background: transparent url(../images/grid/grid.gif) repeat-y top center;
+}
+
+/* line 457, ../sass/gui.scss */
+.black {
+  color: #000;
+}
+
+/* line 458, ../sass/gui.scss */
+.bg-black, .bg-black.button {
+  background-color: #000;
+}
+
+/* line 459, ../sass/gui.scss */
+a.bg-black:hover, .bg-black.button:hover {
+  background-color: #333;
+}
+
+/* line 460, ../sass/gui.scss */
+.bg-black-alpha90 {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* line 461, ../sass/gui.scss */
+.bg-black-alpha70 {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 462, ../sass/gui.scss */
+.bg-black-alpha50 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 463, ../sass/gui.scss */
+.bg-black-alpha30 {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* line 464, ../sass/gui.scss */
+.bg-black-alpha10 {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* line 465, ../sass/gui.scss */
+.ie7 .bg-black-alpha90, .ie8 .bg-black-alpha90 {
+  background-color: #000;
+}
+
+/* line 466, ../sass/gui.scss */
+.ie7 .bg-black-alpha70, .ie8 .bg-black-alpha70 {
+  background-color: #000;
+}
+
+/* line 467, ../sass/gui.scss */
+.ie7 .bg-black-alpha50, .ie8 .bg-black-alpha50 {
+  background-color: #000;
+}
+
+/* line 468, ../sass/gui.scss */
+.ie7 .bg-black-alpha30, .ie8 .bg-black-alpha30 {
+  background-color: #000;
+}
+
+/* line 469, ../sass/gui.scss */
+.ie7 .bg-black-alpha10, .ie8 .bg-black-alpha10 {
+  background-color: #000;
+}
+
+/* line 470, ../sass/gui.scss */
+.white {
+  color: #fff;
+}
+
+/* line 471, ../sass/gui.scss */
+.bg-white {
+  background-color: #fff;
+}
+
+/* line 472, ../sass/gui.scss */
+.bg-white.button {
+  background-color: #fff;
+  color: #333;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0))) !important;
+  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)) !important;
+}
+
+/* line 473, ../sass/gui.scss */
+a.bg-white:hover, .bg-white.button:hover {
+  background-color: #eee;
+}
+
+/* line 474, ../sass/gui.scss */
+.bg-white-alpha90 {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* line 475, ../sass/gui.scss */
+.bg-white-alpha70 {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* line 476, ../sass/gui.scss */
+.bg-white-alpha50 {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* line 477, ../sass/gui.scss */
+.bg-white-alpha30 {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* line 478, ../sass/gui.scss */
+.bg-white-alpha10 {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* line 479, ../sass/gui.scss */
+.ie7 .bg-white-alpha90, .ie8 .bg-white-alpha90 {
+  background-color: #fff;
+}
+
+/* line 480, ../sass/gui.scss */
+.ie7 .bg-white-alpha70, .ie8 .bg-white-alpha70 {
+  background-color: #fff;
+}
+
+/* line 481, ../sass/gui.scss */
+.ie7 .bg-white-alpha50, .ie8 .bg-white-alpha50 {
+  background-color: #fff;
+}
+
+/* line 482, ../sass/gui.scss */
+.ie7 .bg-white-alpha30, .ie8 .bg-white-alpha30 {
+  background-color: #fff;
+}
+
+/* line 483, ../sass/gui.scss */
+.ie7 .bg-white-alpha10, .ie8 .bg-white-alpha10 {
+  background-color: #fff;
+}
+
+/* line 484, ../sass/gui.scss */
+.hint-grey {
+  color: #eee;
+}
+
+/* line 485, ../sass/gui.scss */
+.bg-hint-grey {
+  background-color: #eee;
+}
+
+/* line 486, ../sass/gui.scss */
+.bg-hint-grey.button {
+  background-color: #eee;
+  color: #333;
+}
+
+/* line 487, ../sass/gui.scss */
+a.bg-hint-grey:hover, .bg-hint-grey.button:hover {
+  background-color: #ccc;
+}
+
+/* line 488, ../sass/gui.scss */
+.pale-grey {
+  color: #ccc;
+}
+
+/* line 489, ../sass/gui.scss */
+.bg-pale-grey {
+  background-color: #ccc;
+}
+
+/* line 490, ../sass/gui.scss */
+.bg-pale-grey.button {
+  background-color: #ccc;
+  color: #333;
+}
+
+/* line 491, ../sass/gui.scss */
+a.bg-pale-grey:hover, .bg-pale-grey.button:hover {
+  background-color: #999;
+}
+
+/* line 492, ../sass/gui.scss */
+.light-grey {
+  color: #999;
+}
+
+/* line 493, ../sass/gui.scss */
+.bg-light-grey, .bg-light-grey.button {
+  background-color: #999;
+}
+
+/* line 494, ../sass/gui.scss */
+a.bg-light-grey:hover, .bg-light-grey.button:hover {
+  background-color: #666;
+}
+
+/* line 495, ../sass/gui.scss */
+.medium-grey {
+  color: #666;
+}
+
+/* line 496, ../sass/gui.scss */
+.bg-medium-grey, .bg-medium-grey.button {
+  background-color: #666;
+}
+
+/* line 497, ../sass/gui.scss */
+a.bg-medium-grey:hover, .bg-medium-grey.button:hover {
+  background-color: #333;
+}
+
+/* line 498, ../sass/gui.scss */
+.dark-grey {
+  color: #333;
+}
+
+/* line 499, ../sass/gui.scss */
+.bg-dark-grey, .bg-dark-grey.button {
+  background-color: #333;
+}
+
+/* line 500, ../sass/gui.scss */
+a.bg-dark-grey:hover, .bg-dark-grey.button:hover {
+  background-color: #666;
+}
+
+/* line 501, ../sass/gui.scss */
+.hint-red {
+  color: #ffeeee;
+}
+
+/* line 502, ../sass/gui.scss */
+.bg-hint-red {
+  background-color: #ffeeee;
+}
+
+/* line 503, ../sass/gui.scss */
+.bg-hint-red.button {
+  background-color: #ffeeee;
+  color: #333;
+}
+
+/* line 504, ../sass/gui.scss */
+a.bg-hint-red:hover, .bg-hint-red.button:hover {
+  background-color: #eedddd;
+}
+
+/* line 505, ../sass/gui.scss */
+.pale-red {
+  color: #fbafb2;
+}
+
+/* line 506, ../sass/gui.scss */
+.bg-pale-red {
+  background-color: #fbafb2;
+}
+
+/* line 507, ../sass/gui.scss */
+.bg-pale-red.button {
+  background-color: #fbafb2;
+  color: #333;
+}
+
+/* line 508, ../sass/gui.scss */
+a.bg-pale-red:hover, .bg-pale-red.button:hover {
+  background-color: #FC979A;
+}
+
+/* line 509, ../sass/gui.scss */
+.light-red {
+  color: #e64f54;
+}
+
+/* line 510, ../sass/gui.scss */
+.bg-light-red, .bg-light-red.button {
+  background-color: #e64f54;
+}
+
+/* line 511, ../sass/gui.scss */
+a.bg-light-red:hover, .bg-light-red.button:hover {
+  background-color: #E42F35;
+}
+
+/* line 512, ../sass/gui.scss */
+.medium-red {
+  color: #e5191f;
+}
+
+/* line 513, ../sass/gui.scss */
+.bg-medium-red, .bg-medium-red.button {
+  background-color: #e5191f;
+}
+
+/* line 514, ../sass/gui.scss */
+a.bg-medium-red:hover, .bg-medium-red.button:hover {
+  background-color: #ce0b0f;
+}
+
+/* line 515, ../sass/gui.scss */
+.dark-red {
+  color: #9e0b0f;
+}
+
+/* line 516, ../sass/gui.scss */
+.bg-dark-red, .bg-dark-red.button {
+  background-color: #9e0b0f;
+}
+
+/* line 517, ../sass/gui.scss */
+a.bg-dark-red:hover, .bg-dark-red.button:hover {
+  background-color: #ce0b0f;
+}
+
+/* line 518, ../sass/gui.scss */
+.hint-orange {
+  color: #FDF1DF;
+}
+
+/* line 519, ../sass/gui.scss */
+.bg-hint-orange {
+  background-color: #FDF1DF;
+}
+
+/* line 520, ../sass/gui.scss */
+.bg-hint-orange.button {
+  background-color: #FDF1DF;
+  color: #333;
+}
+
+/* line 521, ../sass/gui.scss */
+a.bg-hint-orange:hover, .bg-hint-orange.button:hover {
+  background-color: #EBDCC5;
+}
+
+/* line 522, ../sass/gui.scss */
+.pale-orange {
+  color: #fda;
+}
+
+/* line 523, ../sass/gui.scss */
+.bg-pale-orange {
+  background-color: #fda;
+}
+
+/* line 524, ../sass/gui.scss */
+.bg-pale-orange.button {
+  background-color: #fda;
+  color: #333;
+}
+
+/* line 525, ../sass/gui.scss */
+a.bg-pale-orange:hover, .bg-pale-orange.button:hover {
+  background-color: #fdc58e;
+}
+
+/* line 526, ../sass/gui.scss */
+.light-orange {
+  color: #f93;
+}
+
+/* line 527, ../sass/gui.scss */
+.bg-light-orange, .bg-light-orange.button {
+  background-color: #f93;
+}
+
+/* line 528, ../sass/gui.scss */
+a.bg-light-orange:hover, .bg-light-orange.button:hover {
+  background-color: #f63;
+}
+
+/* line 529, ../sass/gui.scss */
+.medium-orange {
+  color: #f63;
+}
+
+/* line 530, ../sass/gui.scss */
+.bg-medium-orange, .bg-medium-orange.button {
+  background-color: #f63;
+}
+
+/* line 531, ../sass/gui.scss */
+a.bg-medium-orange:hover, .bg-medium-orange.button:hover {
+  background-color: #f30;
+}
+
+/* line 532, ../sass/gui.scss */
+.dark-orange {
+  color: #f30;
+}
+
+/* line 533, ../sass/gui.scss */
+.bg-dark-orange, .bg-dark-orange.button {
+  background-color: #f30;
+}
+
+/* line 534, ../sass/gui.scss */
+a.bg-dark-orange:hover, .bg-dark-orange.button:hover {
+  background-color: #f63;
+}
+
+/* line 535, ../sass/gui.scss */
+.hint-yellow {
+  color: #FFFEEC;
+}
+
+/* line 536, ../sass/gui.scss */
+.bg-hint-yellow {
+  background-color: #FFFEEC;
+}
+
+/* line 537, ../sass/gui.scss */
+.bg-hint-yellow.button {
+  background-color: #FFFEEC;
+  color: #333;
+}
+
+/* line 538, ../sass/gui.scss */
+a.bg-hint-yellow:hover, .bg-hint-yellow.button:hover {
+  background-color: #fffaaa;
+}
+
+/* line 539, ../sass/gui.scss */
+.pale-yellow {
+  color: #fffddd;
+}
+
+/* line 540, ../sass/gui.scss */
+.bg-pale-yellow {
+  background-color: #fffddd;
+}
+
+/* line 541, ../sass/gui.scss */
+.bg-pale-yellow.button {
+  background-color: #fffddd;
+  color: #333;
+}
+
+/* line 542, ../sass/gui.scss */
+a.bg-pale-yellow:hover, .bg-pale-yellow.button:hover {
+  background-color: #fffaaa;
+}
+
+/* line 543, ../sass/gui.scss */
+.light-yellow {
+  color: #fffaaa;
+}
+
+/* line 544, ../sass/gui.scss */
+.bg-light-yellow {
+  background-color: #fffaaa;
+}
+
+/* line 545, ../sass/gui.scss */
+.bg-light-yellow.button {
+  background-color: #fffaaa;
+  color: #333;
+}
+
+/* line 546, ../sass/gui.scss */
+a.bg-light-yellow:hover, .bg-light-yellow.button:hover {
+  background-color: #fff666;
+}
+
+/* line 547, ../sass/gui.scss */
+.medium-yellow {
+  color: #fff000;
+}
+
+/* line 548, ../sass/gui.scss */
+.bg-medium-yellow {
+  background-color: #fff000;
+}
+
+/* line 549, ../sass/gui.scss */
+.bg-medium-yellow.button {
+  background-color: #fff000;
+  color: #333;
+}
+
+/* line 550, ../sass/gui.scss */
+a.bg-medium-yellow:hover, .bg-medium-yellow.button:hover {
+  background-color: #ffde00;
+}
+
+/* line 551, ../sass/gui.scss */
+.dark-yellow {
+  color: #dbbe00;
+}
+
+/* line 552, ../sass/gui.scss */
+.bg-dark-yellow, .bg-dark-yellow.button {
+  background-color: #dbbe00;
+}
+
+/* line 553, ../sass/gui.scss */
+a.bg-dark-yellow:hover, .bg-dark-yellow.button:hover {
+  background-color: #E0CD4C;
+}
+
+/* line 554, ../sass/gui.scss */
+.hint-green {
+  color: #eeffee;
+}
+
+/* line 555, ../sass/gui.scss */
+.bg-hint-green {
+  background-color: #eeffee;
+}
+
+/* line 556, ../sass/gui.scss */
+.bg-hint-green.button {
+  background-color: #eeffee;
+  color: #333;
+}
+
+/* line 557, ../sass/gui.scss */
+a.bg-hint-green:hover {
+  background-color: #ccddcc;
+}
+
+/* line 558, ../sass/gui.scss */
+.bg-hint-green.button:hover {
+  background-color: #ccddcc;
+  color: #333;
+}
+
+/* line 559, ../sass/gui.scss */
+.pale-green {
+  color: #c9d9d1;
+}
+
+/* line 560, ../sass/gui.scss */
+.bg-pale-green {
+  background-color: #c9d9d1;
+}
+
+/* line 561, ../sass/gui.scss */
+.bg-pale-green.button {
+  background-color: #c9d9d1;
+  color: #333;
+}
+
+/* line 562, ../sass/gui.scss */
+a.bg-pale-green:hover {
+  background-color: #AABDB3;
+}
+
+/* line 563, ../sass/gui.scss */
+.bg-pale-green.button:hover {
+  background-color: #AABDB3;
+  color: #333;
+}
+
+/* line 564, ../sass/gui.scss */
+.light-green {
+  color: #7eb684;
+}
+
+/* line 565, ../sass/gui.scss */
+.bg-light-green, .bg-light-green.button {
+  background-color: #7eb684;
+}
+
+/* line 566, ../sass/gui.scss */
+a.bg-light-green:hover, .bg-light-green.button:hover {
+  background-color: #628D66;
+}
+
+/* line 567, ../sass/gui.scss */
+.medium-green {
+  color: #9ea618;
+}
+
+/* line 568, ../sass/gui.scss */
+.bg-medium-green, .bg-medium-green.button {
+  background-color: #9ea618;
+}
+
+/* line 569, ../sass/gui.scss */
+a.bg-medium-green:hover, .bg-medium-green.button:hover {
+  background-color: #787E12;
+}
+
+/* line 570, ../sass/gui.scss */
+.dark-green {
+  color: #666b12;
+}
+
+/* line 571, ../sass/gui.scss */
+.bg-dark-green, .bg-dark-green.button {
+  background-color: #666b12;
+}
+
+/* line 572, ../sass/gui.scss */
+a.bg-dark-green:hover, .bg-dark-green.button:hover {
+  background-color: #8A8F2D;
+}
+
+/* line 573, ../sass/gui.scss */
+.hint-blue {
+  color: #e5f4ff;
+}
+
+/* line 574, ../sass/gui.scss */
+.bg-hint-blue {
+  background-color: #e5f4ff;
+}
+
+/* line 575, ../sass/gui.scss */
+.bg-hint-blue.button {
+  background-color: #e5f4ff;
+  color: #333;
+}
+
+/* line 576, ../sass/gui.scss */
+a.bg-hint-blue:hover, .bg-hint-blue.button:hover {
+  background-color: #C5DBEB;
+}
+
+/* line 577, ../sass/gui.scss */
+.pale-blue {
+  color: #B8E1FF;
+}
+
+/* line 578, ../sass/gui.scss */
+.bg-pale-blue {
+  background-color: #B8E1FF;
+}
+
+/* line 579, ../sass/gui.scss */
+.bg-pale-blue.button {
+  background-color: #B8E1FF;
+  color: #333;
+}
+
+/* line 580, ../sass/gui.scss */
+a.bg-pale-blue:hover, .bg-pale-blue.button:hover {
+  background-color: #AFD0EB;
+}
+
+/* line 581, ../sass/gui.scss */
+.light-blue {
+  color: #70b1e4;
+}
+
+/* line 582, ../sass/gui.scss */
+.bg-light-blue, .bg-light-blue.button {
+  background-color: #70b1e4;
+}
+
+/* line 583, ../sass/gui.scss */
+a.bg-light-blue:hover, .bg-light-blue.button:hover {
+  background-color: #62A0CF;
+}
+
+/* line 584, ../sass/gui.scss */
+.medium-blue {
+  color: #3399fe;
+}
+
+/* line 585, ../sass/gui.scss */
+.bg-medium-blue, .bg-medium-blue.button {
+  background-color: #3399fe;
+}
+
+/* line 586, ../sass/gui.scss */
+a.bg-medium-blue:hover, .bg-medium-blue.button:hover {
+  background-color: #3B8BDA;
+}
+
+/* line 587, ../sass/gui.scss */
+.dark-blue {
+  color: #1c3f68;
+}
+
+/* line 588, ../sass/gui.scss */
+.bg-dark-blue, .bg-dark-blue.button {
+  background-color: #1c3f68;
+}
+
+/* line 589, ../sass/gui.scss */
+a.bg-dark-blue:hover, .bg-dark-blue.button:hover {
+  background-color: #32698d;
+}
+
+/* line 590, ../sass/gui.scss */
+.hint-purple {
+  color: #FDF5FF;
+}
+
+/* line 591, ../sass/gui.scss */
+.bg-hint-purple {
+  background-color: #FDF5FF;
+}
+
+/* line 592, ../sass/gui.scss */
+.bg-hint-purple.button {
+  background-color: #FDF5FF;
+  color: #333;
+}
+
+/* line 593, ../sass/gui.scss */
+a.bg-hint-purple:hover, .bg-hint-purple.button:hover {
+  background-color: #FBECFF;
+}
+
+/* line 594, ../sass/gui.scss */
+.pale-purple {
+  color: #EFB6F1;
+}
+
+/* line 595, ../sass/gui.scss */
+.bg-pale-purple {
+  background-color: #EFB6F1;
+}
+
+/* line 596, ../sass/gui.scss */
+.bg-pale-purple.button {
+  background-color: #EFB6F1;
+  color: #333;
+}
+
+/* line 597, ../sass/gui.scss */
+a.bg-pale-purple:hover, .bg-pale-purple.button:hover {
+  background-color: #F0A6F1;
+}
+
+/* line 598, ../sass/gui.scss */
+.light-purple {
+  color: #F955FF;
+}
+
+/* line 599, ../sass/gui.scss */
+.bg-light-purple, .bg-light-purple.button {
+  background-color: #F955FF;
+}
+
+/* line 600, ../sass/gui.scss */
+a.bg-light-purple:hover, .bg-light-purple.button:hover {
+  background-color: #E747EC;
+}
+
+/* line 601, ../sass/gui.scss */
+.medium-purple {
+  color: #A60BAC;
+}
+
+/* line 602, ../sass/gui.scss */
+.bg-medium-purple, .bg-medium-purple.button {
+  background-color: #A60BAC;
+}
+
+/* line 603, ../sass/gui.scss */
+a.bg-medium-purple:hover, .bg-medium-purple.button:hover {
+  background-color: #890C8D;
+}
+
+/* line 604, ../sass/gui.scss */
+.dark-purple {
+  color: #5C115C;
+}
+
+/* line 605, ../sass/gui.scss */
+.bg-dark-purple, .bg-dark-purple.button {
+  background-color: #5C115C;
+}
+
+/* line 606, ../sass/gui.scss */
+a.bg-dark-purple:hover, .bg-dark-purple.button:hover {
+  background-color: #8A2A8A;
+}
+
+/* line 607, ../sass/gui.scss */
+.hint-brown {
+  color: #FFFAEE;
+}
+
+/* line 608, ../sass/gui.scss */
+.bg-hint-brown {
+  background-color: #FFFAEE;
+}
+
+/* line 609, ../sass/gui.scss */
+.bg-hint-brown.button {
+  background-color: #FFFAEE;
+  color: #333;
+}
+
+/* line 610, ../sass/gui.scss */
+a.bg-hint-brown:hover, .bg-hint-brown.button:hover {
+  background-color: #fff7e1;
+}
+
+/* line 611, ../sass/gui.scss */
+.pale-brown {
+  color: #fff7e1;
+}
+
+/* line 612, ../sass/gui.scss */
+.bg-pale-brown {
+  background-color: #fff7e1;
+}
+
+/* line 613, ../sass/gui.scss */
+.bg-pale-brown.button {
+  background-color: #fff7e1;
+  color: #333;
+}
+
+/* line 614, ../sass/gui.scss */
+a.bg-pale-brown:hover, .bg-pale-brown.button:hover {
+  background-color: #F8EFD9;
+}
+
+/* line 615, ../sass/gui.scss */
+.light-brown {
+  color: #af997c;
+}
+
+/* line 616, ../sass/gui.scss */
+.bg-light-brown, .bg-light-brown.button {
+  background-color: #af997c;
+}
+
+/* line 617, ../sass/gui.scss */
+a.bg-light-brown:hover, .bg-light-brown.button:hover {
+  background-color: #998468;
+}
+
+/* line 618, ../sass/gui.scss */
+.medium-brown {
+  color: #8c5e21;
+}
+
+/* line 619, ../sass/gui.scss */
+.bg-medium-brown, .bg-medium-brown.button {
+  background-color: #8c5e21;
+}
+
+/* line 620, ../sass/gui.scss */
+a.bg-medium-brown:hover, .bg-medium-brown.button:hover {
+  background-color: #6D4919;
+}
+
+/* line 621, ../sass/gui.scss */
+.dark-brown {
+  color: #563c1a;
+}
+
+/* line 622, ../sass/gui.scss */
+.bg-dark-brown, .bg-dark-brown.button {
+  background-color: #563c1a;
+}
+
+/* line 624, ../sass/gui.scss */
+a.bg-dark-brown:hover,
+.bg-dark-brown.button:hover {
+  background-color: #805D2F;
+}
+
+/*PRINT.CSS*/
+@media screen {
+  /* line 626, ../sass/gui.scss */
+  .forprint {
+    display: none !important;
+  }
+
+  /* USE THIS CLASS FOR ANYTHING YOU ONLY WANT TO APPEAR ON PRINTED DOCUMENTS,IT WILL BE HIDDEN FOR media="screen" */
+}
+@media print {
+  /* HIDE STUFF */
+  /* line 629, ../sass/gui.scss */
+  #logo, #globalnav, #siteheader, #emergency, #announcement, #banner_spacer, .menu, .footer, #footer.container, footer.container, .anchor, a[href^="#"], .ad, .quote, .quote img, .footer br, #footer br, footer br {
+    display: none !important;
+  }
+
+  /* GLOBAL RESET */
+  /* line 631, ../sass/gui.scss */
+  * {
+    background: none !important;
+  }
+
+  /* line 632, ../sass/gui.scss */
+  body {
+    line-height: 1.5;
+    background: none !important;
+    color: #000 !important;
+    font-size: 115%;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* PAGE LAYOUT */
+  /* line 634, ../sass/gui.scss */
+  #section, section, .section {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: none !important;
+    background: none !important;
+    clear: both;
+  }
+
+  /* line 635, ../sass/gui.scss */
+  #section.hasmenu, section.hasmenu, .section.hasmenu {
+    float: none !important;
+    width: 100%;
+    background: none !important;
+  }
+
+  /* line 636, ../sass/gui.scss */
+  #footer, footer, .footer {
+    border-top: 1px solid #ccc !important;
+    padding-top: 1em !important;
+  }
+
+  /* line 637, ../sass/gui.scss */
+  #aside, aside, .aside {
+    width: 100% !important;
+  }
+
+  /* line 638, ../sass/gui.scss */
+  #aside > *, aside > *, .aside > * {
+    max-width: 100% !important;
+  }
+
+  /* line 639, ../sass/gui.scss */
+  #footer, footer, .footer {
+    clear: both;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #000 !important;
+    padding-top: .5em;
+  }
+
+  /* line 640, ../sass/gui.scss */
+  #footer .col3, footer .col3, .footer col3 {
+    width: 100% !important;
+  }
+
+  /* line 641, ../sass/gui.scss */
+  #footer br.forprint, footer br.forprint, .footer br.forprint {
+    display: block !important;
+  }
+
+  /* line 642, ../sass/gui.scss */
+  #printheader {
+    display: block;
+    width: 100%;
+  }
+
+  /* line 643, ../sass/gui.scss */
+  #printheader img {
+    float: left;
+    display: block;
+    margin-right: 2em;
+  }
+
+  /* line 644, ../sass/gui.scss */
+  #printheader p {
+    float: right;
+  }
+
+  /* line 645, ../sass/gui.scss */
+  #printheader br {
+    display: block !important;
+  }
+
+  /* TEXT*/
+  /* line 647, ../sass/gui.scss */
+  a {
+    background: none;
+    font-weight: normal;
+    text-decoration: underline;
+  }
+
+  /* line 648, ../sass/gui.scss */
+  a:after {
+    content: " (www.sunyocc.edu" attr(href) ")";
+    font-size: 75%;
+    text-decoration: none;
+    color: #000;
+  }
+
+  /* line 649, ../sass/gui.scss */
+  h1, h2, h3, h4, h5, h6 {
+    display: block;
+    clear: both;
+    margin: 0 !important;
+    padding: .5em 0 .5em 0;
+    width: 100%;
+  }
+
+  /* line 650, ../sass/gui.scss */
+  p, ul, ol, dl {
+    line-height: 1.5;
+    margin-bottom: .5em;
+  }
+
+  /* line 651, ../sass/gui.scss */
+  hr {
+    background: #ccc;
+    color: #ccc;
+    width: 100%;
+    height: 2px;
+    margin: 1em 0;
+    padding: 0;
+    border: none;
+  }
+
+  /* line 652, ../sass/gui.scss */
+  hr.space {
+    background: none;
+    color: #fff;
+    visibility: hidden;
+  }
+
+  /* line 653, ../sass/gui.scss */
+  code {
+    font: .9em "Courier New",Monaco,Courier,monospace;
+  }
+
+  /* line 654, ../sass/gui.scss */
+  a img {
+    border: none;
+  }
+
+  /* line 655, ../sass/gui.scss */
+  blockquote {
+    margin: 1.5em;
+    padding: 1em;
+    font-style: italic;
+    font-size: .9em;
+  }
+
+  /* line 656, ../sass/gui.scss */
+  .small {
+    font-size: .9em;
+  }
+
+  /* line 657, ../sass/gui.scss */
+  .large {
+    font-size: 1.1em;
+  }
+
+  /* line 658, ../sass/gui.scss */
+  .quiet {
+    color: #999;
+  }
+
+  /* line 659, ../sass/gui.scss */
+  .hide {
+    display: none !important;
+  }
+
+  /* line 660, ../sass/gui.scss */
+  .noprint {
+    display: none !important;
+  }
+
+  /* line 661, ../sass/gui.scss */
+  .border-white td, .border-white th {
+    border-color: #666;
+  }
+
+  /* line 662, ../sass/gui.scss */
+  td, th {
+    color: #000 !important;
+  }
+}
