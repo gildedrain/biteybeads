@@ -2104,17 +2104,12 @@ button.negative:hover {
   position: relative;
   padding: 0;
   margin: 0;
-  min-height: 500px;
+  min-height: 300px;
 }
 
 /* .bg_slideshow{margin-top:48px;}
 /* if #occheaderbg{position:absolute;}
 */
-/* line 408, ../sass/gui.scss */
-.ie7 .bg_slideshow {
-  top: -50px;
-}
-
 /* line 409, ../sass/gui.scss */
 .bg_slideshow li {
   z-index: 0;
@@ -2193,29 +2188,6 @@ button.negative:hover {
 }
 
 /* captions */
-/* line 421, ../sass/gui.scss */
-.bg_slideshow a {
-  display: inline-block;
-  font-size: 1.5em;
-  padding: .5em;
-  text-shadow: 2px 2px 0px #000000;
-}
-
-/* line 422, ../sass/gui.scss */
-.bg_slideshow a:hover {
-  box-shadow: 0 0 100px 0 rgba(255, 255, 255, 0.5);
-}
-
-/* line 423, ../sass/gui.scss */
-.bg_slideshow strong {
-  font-weight: 600;
-}
-
-/* line 424, ../sass/gui.scss */
-.no-js .bg_slideshow a {
-  margin-top: -200px;
-}
-
 /* caption positions */
 /* line 426, ../sass/gui.scss */
 .bg_slideshow .caption-top {
