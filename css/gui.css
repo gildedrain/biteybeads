@@ -832,13 +832,6 @@ a.noicon {
   margin: 0 3px 0 0 !important;
 }
 
-/* line 178, ../sass/gui.scss */
-a[href^="mailto:"] {
-  background-position: 100% -450px;
-  padding: 2px 18px 2px 0 !important;
-  margin: 0 3px 0 0 !important;
-}
-
 /* line 179, ../sass/gui.scss */
 .file_pdf {
   background-position: 100% -950px;

@@ -1,9 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=Nixie+One|La+Belle+Aurore|Podkova|Life+Savers|Clicker+Script|Sacramento|Raleway+Dots|Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800;);
+@import url(http://fonts.googleapis.com/css?family=Tienne|Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800;);
 /* line 2, ../sass/screen.scss */
 body {
   font-family: open sans;
   font-size: 1.1em;
   font-weight: 300;
+  padding-bottom: 3em;
 }
 
 /* line 3, ../sass/screen.scss */
@@ -66,7 +67,7 @@ body {
 
 /* line 14, ../sass/screen.scss */
 .usp {
-  font-family: nixie one;
+  font-family: tienne;
   font-size: 1.9em;
   width: 80%;
   margin: 1em auto 1em auto;
@@ -110,10 +111,12 @@ body {
 /* line 22, ../sass/screen.scss */
 .products h3 {
   font-size: 1em;
+  margin-bottom: 1em;
 }
 
 /* line 23, ../sass/screen.scss */
 .colors {
+  display: none;
   margin-bottom: 1em;
 }
 
@@ -248,38 +251,43 @@ body {
   margin-top: 2em;
 }
 
+/* line 59, ../sass/screen.scss */
+.footer {
+  font-size: .8em;
+  color: #aaa;
+}
+
 /* TYPOGRAPHY */
-/* line 60, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: nixie one;
+  font-family: Tienne;
   margin: 0 0 .1em 0;
 }
 
-/* line 61, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 h1 {
-  font-family: nixie one;
   font-size: 1.75em;
 }
 
-/* line 62, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
 h2 {
   font-size: 1.5em;
 }
 
-/* line 63, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 h3 {
   font-weight: 600;
   font-size: 1.2em;
   margin-top: 1em;
 }
 
-/* line 64, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 h4 {
   font-weight: bold;
   font-size: 1em;
 }
 
-/* line 65, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 hr {
   border-width: 0 0 1px 0;
   border-style: solid;
